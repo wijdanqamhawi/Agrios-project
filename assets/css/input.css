@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+}
+
+@layer components {
+  .nav-link {
+    @apply font-manrope font-semibold text-base leading-9 tracking-normal;
+  }
+
+  .contact-us {
+    @apply font-manrope font-bold text-sm leading-5 tracking-normal;
+  }
+}
+@layer components {
+  .contact-uss {
+    @apply text-gray-400 text-xs font-semibold font-manrope leading-5;
+  }
+}
+@layer components {
+  .social-media {
+    @apply w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center;
+  }
+}
