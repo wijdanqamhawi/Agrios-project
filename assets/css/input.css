@@ -2,6 +2,7 @@
 
 @theme {
   --font-manrope: "Manrope", sans-serif;
+  --font-covered: "Covered By Your Grace", cursive; 
 }
 
 @layer components {
@@ -21,5 +22,10 @@
 @layer components {
   .social-media {
     @apply w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center;
+  }
+}
+@layer components {
+  .Features-Section{
+    @apply font-manrope font-extrabold text-2xl leading-7.5  tracking-normal  text-center;
   }
 }
