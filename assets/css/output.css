@@ -25,12 +25,16 @@
     --text-base--line-height: calc(1.5 / 1);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
+    --text-xl: 1.25rem;
+    --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
+    --text-6xl: 3.75rem;
+    --text-6xl--line-height: 1;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -521,6 +525,9 @@
   .w-\[551\.2px\] {
     width: 551.2px;
   }
+  .w-\[698\.8px\] {
+    width: 698.8px;
+  }
   .w-full {
     width: 100%;
   }
@@ -919,6 +926,10 @@
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
+  .text-6xl {
+    font-size: var(--text-6xl);
+    line-height: var(--tw-leading, var(--text-6xl--line-height));
+  }
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
@@ -930,6 +941,10 @@
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
+  }
+  .text-xl {
+    font-size: var(--text-xl);
+    line-height: var(--tw-leading, var(--text-xl--line-height));
   }
   .text-xs {
     font-size: var(--text-xs);
@@ -983,6 +998,9 @@
   .text-\[50px\] {
     font-size: 50px;
   }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
   .leading-5 {
     --tw-leading: calc(var(--spacing) * 5);
     line-height: calc(var(--spacing) * 5);
@@ -1031,6 +1049,14 @@
     --tw-leading: calc(var(--spacing) * 13);
     line-height: calc(var(--spacing) * 13);
   }
+  .leading-18 {
+    --tw-leading: calc(var(--spacing) * 18);
+    line-height: calc(var(--spacing) * 18);
+  }
+  .leading-\[30px\] {
+    --tw-leading: 30px;
+    line-height: 30px;
+  }
   .leading-\[50px\] {
     --tw-leading: 50px;
     line-height: 50px;
@@ -1038,6 +1064,10 @@
   .leading-\[57\.6px\] {
     --tw-leading: 57.6px;
     line-height: 57.6px;
+  }
+  .leading-\[72px\] {
+    --tw-leading: 72px;
+    line-height: 72px;
   }
   .leading-tight {
     --tw-leading: var(--leading-tight);
@@ -1062,6 +1092,14 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .tracking-\[-4px\] {
+    --tw-tracking: -4px;
+    letter-spacing: -4px;
+  }
+  .tracking-\[0\] {
+    --tw-tracking: 0;
+    letter-spacing: 0;
   }
   .tracking-normal {
     --tw-tracking: var(--tracking-normal);
@@ -1090,6 +1128,12 @@
   }
   .text-\[\#f7c948\] {
     color: #f7c948;
+  }
+  .text-\[40paboutx\] {
+    color: 40paboutx;
+  }
+  .text-\[40pax\] {
+    color: 40pax;
   }
   .text-black {
     color: var(--color-black);
