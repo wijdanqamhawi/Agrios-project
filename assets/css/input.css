@@ -62,3 +62,8 @@
   
   }
 }
+@layer components {
+  .about-section{
+    @apply text-[#1f1e17] font-manrope font-bold text-lg leading-9 tracking-normal;
+  }
+}
