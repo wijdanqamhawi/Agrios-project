@@ -43,7 +43,7 @@
 @layer components {
   .Footer-header{
     @apply text-white font-manrope font-medium text-[15px] leading-7.5  
-    tracking-normal mb-3 underline decoration-[#4baf47] underline-offset-10px decoration-4;
+    tracking-normal mb-3 underline decoration-[#4baf47] underline-offset-[10px] decoration-4;
   }
 }
 @layer components {
@@ -56,4 +56,9 @@
     @apply  font-manrope font-semibold text-base leading-9 tracking-normal flex items-center gap-1;
   }
 }
-@layer
+@layer components {
+  .about-titel{
+    @apply font-manrope font-semibold text-sm leading-[26.25px] tracking-[1.4px] text-center uppercase text-white;
+  
+  }
+}
