@@ -76,30 +76,47 @@
 </header>
 
 <main>
-<section class="hidden lg:block">
+<section class="hidden lg:block bg-[#f8f7f0] relative">
   <div class="container mx-auto py-4 px-4 flex items-center justify-between">
     <nav>
-      <ul class="flex justify-center gap-10 text-lg">
-        <li class="font-manrope font-extrabold text-base leading-9 tracking-normal" ><a href="#">Home</a></li>
-        <li class="nav-link" ><a href="#">About</a></li>
-        <li class="nav-link" ><a href="#">service</a></li>
-        <li class="nav-link" ><a href="#">projects</a></li>
-        <li class="nav-link" ><a href="#">news</a></li>
-        <li class="nav-link" ><a href="#">shop</a></li>
-        <li class="nav-link" ><a href="#">contact</a></li>
+      <ul class="flex items-center gap-10">
+        <li class="flex items-center gap-1 font-manrope font-extrabold text-base leading-9 tracking-normal text-black">
+          <a href="#">Home</a><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li class="nav-link"><a href="#">About</a></li>
+        <li class="nav-link flex items-center gap-1"> 
+          <a href="#">Service</a> <i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li class="nav-link flex items-center gap-1">
+          <a href="#">Projects</a> <i class="fa-solid fa-chevron-down"></i>
+        </li>
+
+        <li class="nav-link flex items-center gap-1">
+          <a href="#">News</a><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li class="nav-link flex items-center gap-1">
+          <a href="#">Shop</a><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li class="nav-link"> 
+          <a href="#">Contact</a> 
+        </li>
       </ul>
     </nav>
-     
-      <div class="flex gap-5">
-        <img src="./assets/img/search.svg" class="w-5 h-5">
-        <div class="relative">
-  <img src="./assets/img/buy.svg" class="w-6 h-6">
-  <span class="absolute -top-2 -right-2 bg-green-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full"> 0</span>
-</div>
- </div>
-  </div>
-</section>
 
+    
+    <div class="flex items-center gap-5 border-l border-[#e7e2d9] pl-7">
+      <img src="./assets/img/search.svg" class="w-5 h-5">
+      <div class="relative">
+        <img src="./assets/img/buy.svg" class="w-6 h-6">
+        <span class="absolute -top-2 -right-2 bg-[#4baf47] text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full"> 0</span>
+      </div>
+    </div>
+  </div>
+
+  
+  <img src="./assets/img/main-menu-shape.png"class="absolute -bottom-2 left-0 w-full h-3 object-cover">
+
+</section>
 
 <section class="relative h-screen bg-[url('../img/hero.png')] bg-cover bg-center">
   <div class="absolute inset-0 bg-black/40"></div>

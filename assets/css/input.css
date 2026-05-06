@@ -48,6 +48,11 @@
 }
 @layer components {
   .Footer-description{
-    @apply font-manrope font-medium text-[15px] leading-[26px] tracking-[0]
+    @apply font-manrope font-medium text-[15px] leading-[26px] tracking-normal
+  }
+}
+@layer components {
+  .about-navlink{
+    @apply  font-manrope font-semibold text-[16px] leading-[36px] tracking-[0]
   }
 }
