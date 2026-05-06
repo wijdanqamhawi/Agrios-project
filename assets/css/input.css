@@ -9,14 +9,15 @@
   .nav-link {
     @apply font-manrope font-semibold text-base leading-9 tracking-normal;
   }
+  
 
   .contact-us {
-    @apply font-manrope font-bold text-sm leading-5 tracking-normal;
+    @apply  text-[#1f1e17] font-manrope font-bold text-sm leading-5 tracking-normal mb-1;
   }
 }
 @layer components {
   .contact-uss {
-    @apply text-gray-400 text-xs font-semibold font-manrope leading-5;
+    @apply text-gray-400 font-manrope font-semibold text-xs leading-5 tracking-normal;
   }
 }
 @layer components {
