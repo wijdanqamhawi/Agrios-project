@@ -29,4 +29,24 @@
     @apply font-manrope font-extrabold text-2xl leading-7.5  tracking-normal  text-center;
   }
 }
-
+@layer components {
+  .Footer-news{
+    @apply  text-white font-manrope font-bold text-[16px] leading-6.5 tracking-normal mb-1;
+  }
+}
+@layer components {
+  .Footer-date{
+    @apply text-[#eec044] font-manrope font-normal text-[15px] leading-[28.13px] tracking-normal;
+  }
+}
+@layer components {
+  .Footer-header{
+    @apply text-white font-manrope font-medium text-[15px] leading-7.5  
+    tracking-normal mb-3 underline decoration-[#4baf47] underline-offset-[10px] decoration-4;
+  }
+}
+@layer components {
+  .Footer-description{
+    @apply font-manrope font-medium text-[15px] leading-[26px] tracking-[0]
+  }
+}
