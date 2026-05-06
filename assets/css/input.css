@@ -32,7 +32,7 @@
 }
 @layer components {
   .Footer-news{
-    @apply  text-white font-manrope font-bold text-[16px] leading-6.5 tracking-normal mb-1;
+    @apply  text-white font-manrope font-bold text-base leading-6.5 tracking-normal mb-1;
   }
 }
 @layer components {
@@ -43,7 +43,7 @@
 @layer components {
   .Footer-header{
     @apply text-white font-manrope font-medium text-[15px] leading-7.5  
-    tracking-normal mb-3 underline decoration-[#4baf47] underline-offset-[10px] decoration-4;
+    tracking-normal mb-3 underline decoration-[#4baf47] underline-offset-10px decoration-4;
   }
 }
 @layer components {
@@ -53,6 +53,7 @@
 }
 @layer components {
   .about-navlink{
-    @apply  font-manrope font-semibold text-[16px] leading-[36px] tracking-[0]
+    @apply  font-manrope font-semibold text-base leading-9 tracking-normal flex items-center gap-1;
   }
 }
+@layer
