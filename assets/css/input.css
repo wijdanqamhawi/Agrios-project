@@ -58,7 +58,7 @@
 }
 @layer components {
   .about-titel{
-    @apply font-manrope font-semibold text-sm leading-[26.25px] tracking-[1.4px] text-center uppercase text-white;
+    @apply  text-[#FFFFFFB2] font-manrope font-semibold text-sm leading-[26.25px] tracking-[1.4px] text-center uppercase;
   
   }
 }
