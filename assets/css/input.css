@@ -67,3 +67,13 @@
     @apply text-[#1f1e17] font-manrope font-bold text-lg leading-9 tracking-normal;
   }
 }
+@layer components {
+  .about-users{
+    @apply text-[#1f1e17] font-manrope font-extrabold text-xl leading-6.5 tracking-normal text-right;
+  }
+}
+@layer components {
+  .about-customer{
+    @apply text-[#878680] font-manrope font-medium text-base leading-6.5 tracking-normal text-right;
+  }
+}
