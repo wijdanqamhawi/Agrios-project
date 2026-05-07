@@ -429,17 +429,11 @@
   .h-125 {
     height: calc(var(--spacing) * 125);
   }
-  .h-\[92px\] {
-    height: 92px;
-  }
   .h-\[240px\] {
     height: 240px;
   }
   .h-\[326\.25px\] {
     height: 326.25px;
-  }
-  .h-\[420px\] {
-    height: 420px;
   }
   .h-\[439\.97px\] {
     height: 439.97px;
@@ -512,9 +506,6 @@
   }
   .w-\[62\%\] {
     width: 62%;
-  }
-  .w-\[78\%\] {
-    width: 78%;
   }
   .w-\[80\%\] {
     width: 80%;
@@ -1020,10 +1011,6 @@
   .leading-18 {
     --tw-leading: calc(var(--spacing) * 18);
     line-height: calc(var(--spacing) * 18);
-  }
-  .leading-\[26px\] {
-    --tw-leading: 26px;
-    line-height: 26px;
   }
   .leading-\[57\.6px\] {
     --tw-leading: 57.6px;
