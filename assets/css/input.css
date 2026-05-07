@@ -87,3 +87,8 @@
     @apply text-[#878680] font-manrope font-medium text-base leading-5 tracking-normal text-right;
   }
 }
+@layer components {
+  .newsgrid-nav{
+    @apply text-[#878680] font-manrope font-semibold text-base leading-9;
+  }
+}

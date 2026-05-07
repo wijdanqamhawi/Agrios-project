@@ -1012,6 +1012,14 @@
     --tw-leading: calc(var(--spacing) * 18);
     line-height: calc(var(--spacing) * 18);
   }
+  .leading-\[30px\] {
+    --tw-leading: 30px;
+    line-height: 30px;
+  }
+  .leading-\[36px\] {
+    --tw-leading: 36px;
+    line-height: 36px;
+  }
   .leading-\[57\.6px\] {
     --tw-leading: 57.6px;
     line-height: 57.6px;
@@ -1466,6 +1474,18 @@
     font-weight: var(--font-weight-medium);
     --tw-tracking: var(--tracking-normal);
     letter-spacing: var(--tracking-normal);
+    color: #878680;
+  }
+}
+@layer components {
+  .newsgrid-nav {
+    font-family: var(--font-manrope);
+    font-size: var(--text-base);
+    line-height: var(--tw-leading, var(--text-base--line-height));
+    --tw-leading: calc(var(--spacing) * 9);
+    line-height: calc(var(--spacing) * 9);
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
     color: #878680;
   }
 }
