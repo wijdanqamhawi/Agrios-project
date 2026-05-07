@@ -77,3 +77,13 @@
     @apply text-[#878680] font-manrope font-medium text-base leading-6.5 tracking-normal text-right;
   }
 }
+@layer components {
+  .about-username{
+    @apply text-[#1f1e17] font-manrope font-extrabold text-xl leading-6.5 tracking-normal text-right;
+  }
+}
+@layer components {
+  .about-farmer{
+    @apply text-[#878680] font-manrope font-medium text-base leading-5 tracking-normal text-right;
+  }
+}
