@@ -266,6 +266,12 @@
   .bottom-8 {
     bottom: calc(var(--spacing) * 8);
   }
+  .bottom-10 {
+    bottom: calc(var(--spacing) * 10);
+  }
+  .bottom-14 {
+    bottom: calc(var(--spacing) * 14);
+  }
   .-left-6 {
     left: calc(var(--spacing) * -6);
   }
@@ -283,6 +289,9 @@
   }
   .left-6 {
     left: calc(var(--spacing) * 6);
+  }
+  .left-8 {
+    left: calc(var(--spacing) * 8);
   }
   .left-10 {
     left: calc(var(--spacing) * 10);
@@ -458,6 +467,9 @@
   .h-115 {
     height: calc(var(--spacing) * 115);
   }
+  .h-120 {
+    height: calc(var(--spacing) * 120);
+  }
   .h-125 {
     height: calc(var(--spacing) * 125);
   }
@@ -470,8 +482,14 @@
   .h-\[439\.97px\] {
     height: 439.97px;
   }
+  .h-\[480px\] {
+    height: 480px;
+  }
   .h-\[520px\] {
     height: 520px;
+  }
+  .h-\[558\.44px\] {
+    height: 558.44px;
   }
   .h-auto {
     height: auto;
@@ -559,6 +577,9 @@
   }
   .w-\[280px\] {
     width: 280px;
+  }
+  .w-\[362\.5px\] {
+    width: 362.5px;
   }
   .w-\[399\.59px\] {
     width: 399.59px;
@@ -720,6 +741,9 @@
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
   .space-y-3 {
     :where(& > :not(:last-child)) {
       --tw-space-y-reverse: 0;
@@ -873,6 +897,12 @@
   .bg-black {
     background-color: var(--color-black);
   }
+  .bg-black\/20 {
+    background-color: color-mix(in srgb, #000 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 20%, transparent);
+    }
+  }
   .bg-black\/25 {
     background-color: color-mix(in srgb, #000 25%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -1011,6 +1041,9 @@
   .text-left {
     text-align: left;
   }
+  .font-\[\'Covered_By_Your_Grace\'\] {
+    font-family: 'Covered By Your Grace';
+  }
   .font-covered {
     font-family: var(--font-covered);
   }
@@ -1085,6 +1118,9 @@
   }
   .text-\[24px\] {
     font-size: 24px;
+  }
+  .text-\[28px\] {
+    font-size: 28px;
   }
   .text-\[36px\] {
     font-size: 36px;
@@ -1180,6 +1216,18 @@
   .leading-\[34px\] {
     --tw-leading: 34px;
     line-height: 34px;
+  }
+  .leading-\[36px\] {
+    --tw-leading: 36px;
+    line-height: 36px;
+  }
+  .leading-\[43px\] {
+    --tw-leading: 43px;
+    line-height: 43px;
+  }
+  .leading-\[55px\] {
+    --tw-leading: 55px;
+    line-height: 55px;
   }
   .leading-\[57\.6px\] {
     --tw-leading: 57.6px;
