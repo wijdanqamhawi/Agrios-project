@@ -108,3 +108,8 @@
     @apply text-white font-manrope font-extrabold text-3xl leading-9 tracking-normal;
   }
 }
+@layer components {
+  .healthfood-challange{
+    @apply  text-black font-manrope font-medium text-base leading-5 tracking-normal;
+  }
+}
