@@ -103,3 +103,8 @@
     @apply text-[#1f1f1f] font-manrope font-semibold text-2xl leading-9 tracking-normal text-center;
   }
 }
+@layer components {
+  .projectsgrid-paragraph{
+    @apply text-white font-manrope font-extrabold text-3xl leading-9 tracking-normal;
+  }
+}
