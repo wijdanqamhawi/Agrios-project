@@ -389,6 +389,9 @@
   .table {
     display: table;
   }
+  .aspect-\[3\/4\] {
+    aspect-ratio: 3/4;
+  }
   .h-3 {
     height: calc(var(--spacing) * 3);
   }
@@ -449,6 +452,12 @@
   .h-75 {
     height: calc(var(--spacing) * 75);
   }
+  .h-87 {
+    height: calc(var(--spacing) * 87);
+  }
+  .h-87\.5 {
+    height: calc(var(--spacing) * 87.5);
+  }
   .h-115 {
     height: calc(var(--spacing) * 115);
   }
@@ -473,6 +482,9 @@
   .h-\[240px\] {
     height: 240px;
   }
+  .h-\[280px\] {
+    height: 280px;
+  }
   .h-\[290px\] {
     height: 290px;
   }
@@ -481,6 +493,12 @@
   }
   .h-\[326\.25px\] {
     height: 326.25px;
+  }
+  .h-\[350px\] {
+    height: 350px;
+  }
+  .h-\[400px\] {
+    height: 400px;
   }
   .h-\[439\.97px\] {
     height: 439.97px;
@@ -1328,6 +1346,26 @@
       }
     }
   }
+  .sm\:h-\[320px\] {
+    @media (width >= 40rem) {
+      height: 320px;
+    }
+  }
+  .sm\:h-\[420px\] {
+    @media (width >= 40rem) {
+      height: 420px;
+    }
+  }
+  .sm\:h-\[700px\] {
+    @media (width >= 40rem) {
+      height: 700px;
+    }
+  }
+  .sm\:h-\[px\] {
+    @media (width >= 40rem) {
+      height: px;
+    }
+  }
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1351,6 +1389,16 @@
   .md\:h-90 {
     @media (width >= 48rem) {
       height: calc(var(--spacing) * 90);
+    }
+  }
+  .md\:h-105 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 105);
+    }
+  }
+  .md\:h-\[420px\] {
+    @media (width >= 48rem) {
+      height: 420px;
     }
   }
   .md\:h-full {
@@ -1401,6 +1449,31 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
+    }
+  }
+  .lg\:h-11 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 11);
+    }
+  }
+  .lg\:h-117\.5 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 117.5);
+    }
+  }
+  .lg\:h-\[380px\] {
+    @media (width >= 64rem) {
+      height: 380px;
+    }
+  }
+  .lg\:h-\[470px\] {
+    @media (width >= 64rem) {
+      height: 470px;
+    }
+  }
+  .lg\:h-\[750px\] {
+    @media (width >= 64rem) {
+      height: 750px;
     }
   }
   .lg\:w-1\/2 {
