@@ -113,3 +113,13 @@
     @apply  text-black font-manrope font-medium text-base leading-5 tracking-normal;
   }
 }
+ @media sereen (min-width: 768px) and (max-width: 1023px) {
+   .test {
+    
+  }
+  .contact-us {
+    @apply text-lg leading-6.5;
+  }
+  .contact-uss {
+    @apply text-sm leading-6.5;
+  }
